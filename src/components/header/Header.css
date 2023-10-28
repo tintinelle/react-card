@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  min-height: 60px;
+  border-bottom: 1px solid rgb(252, 241, 241);
+}
+
+.header__title {
+  font-weight: 400;
+}
+
+.header__button {
+  border: none;
+  min-height: 30px;
+  width: 50px;
+  border-radius: 10px;
+  cursor: pointer;
+
+  background-size: 60%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgb(211, 201, 201);
+}
+
+.header__button:hover {
+  background-size: 70%;
+  box-shadow: 0px 5px 10px 2px rgba(238, 229, 228, 0.2);
+}
+
+.header__button_expand {
+  background-image: url("../../../public/assets/images/expand-icon.svg");
+}
+
+.header__button_collapse {
+  background-image: url("../../../public/assets/images/collapse-icon.svg");
+}

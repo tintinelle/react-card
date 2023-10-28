@@ -1,0 +1,16 @@
+/* * {
+  outline: 1px solid rebeccapurple;
+} */
+
+.card {
+  width: 80vw;
+  margin: 50px auto;
+  padding: 30px;
+  border-radius: 10px;
+
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+
+  color: rgb(252, 241, 241);
+  background-color: rgb(147, 130, 130);
+}

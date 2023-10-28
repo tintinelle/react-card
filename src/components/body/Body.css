@@ -1,0 +1,22 @@
+.body {
+  padding-bottom: 20px;
+  border-bottom: 1px solid rgb(252, 241, 241);
+}
+
+.body__infoblock {
+  /* overflow: hidden; */
+  /* transition: all 0.5s ease-in-out; */
+}
+
+.body__infoblock_hidden {
+  height: 0;
+  transform: scaleY(0);
+  transition: transform 0.2s ease-in;
+  transform-origin: bottom left;
+}
+
+.body__infoblock_shown {
+  /* height: 60px; */
+  transition: transform 0.5s ease-out;
+  transform-origin: top left;
+}

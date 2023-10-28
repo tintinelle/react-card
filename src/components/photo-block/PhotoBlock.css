@@ -1,0 +1,9 @@
+.photoblock {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+.photoblock__image {
+  width: 5%;
+}
