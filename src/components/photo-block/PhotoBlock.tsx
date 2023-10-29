@@ -10,7 +10,7 @@ const PhotoBlock: FC = () => {
           <img
             className="photoblock__image"
             key={item.id}
-            src={item.src}
+            src={require(`../../assets/images/sign_${item.name}.png`)}
             alt={`${item.name} icon`}
           ></img>
         ))}

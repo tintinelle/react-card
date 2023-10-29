@@ -5,5 +5,12 @@
 }
 
 .photoblock__image {
-  width: 5%;
+  width: 10%;
+}
+
+@media (min-width: 500px) {
+  .photoblock__image {
+    width: 7%;
+    max-width: 40px;
+  }
 }

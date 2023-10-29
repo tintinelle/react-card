@@ -5,8 +5,14 @@
   border-radius: 10px;
 
   font-family: "Montserrat", sans-serif;
-  font-size: 20px;
+  font-size: 14px;
 
   color: rgb(252, 241, 241);
   background-color: rgb(147, 130, 130);
+}
+
+@media (min-width: 500px) {
+  .card {
+    font-size: 1em;
+  }
 }

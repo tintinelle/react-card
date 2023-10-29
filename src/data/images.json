@@ -1,27 +1,22 @@
 [
   {
     "id": "1",
-    "name": "aard",
-    "src": "/assets/sign_aard.png"
+    "name": "aard"
   },
   {
     "id": "2",
-    "name": "axii",
-    "src": "assets/images/sign_axii.png"
+    "name": "axii"
   },
   {
     "id": "3",
-    "name": "igni",
-    "src": "assets/images/sign_igni.png"
+    "name": "igni"
   },
   {
     "id": "4",
-    "name": "quen",
-    "src": "assets/images/sign_quen.png"
+    "name": "quen"
   },
   {
     "id": "5",
-    "name": "yrden",
-    "src": "assets/images/sign_yrden.png"
+    "name": "yrden"
   }
 ]

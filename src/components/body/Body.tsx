@@ -1,6 +1,8 @@
-import React, { type FC } from "react";
+import React, { type FC, useEffect } from "react";
 import "./Body.css";
 import { useButtonContext } from "../../context/ButtonContext";
+import { useNumberContext } from "../../context/NumberContext";
+import data from "../../data/images.json";
 
 interface BodyProps {
   subtitle?: string;
@@ -9,20 +11,16 @@ interface BodyProps {
 
 const Body: FC<BodyProps> = ({ subtitle, children }) => {
   const buttonContext = useButtonContext();
-  // console.log(`body ${buttonContext?.buttonState}`);
+  const numberContext = useNumberContext();
+
+  useEffect(() => {
+    numberContext?.setNumberState(data.length);
+  }, []);
 
   return (
-    <div className="body">
-      <h2>{subtitle}</h2>
-      <div
-        className={`body__infoblock ${
-          buttonContext?.buttonState
-            ? "body__infoblock_hidden"
-            : "body__infoblock_shown"
-        }`}
-      >
-        {children}
-      </div>
+    <div className={`body ${buttonContext?.buttonState ? "body_hidden" : ""}`}>
+      <h2 className="body__subtitle">{subtitle}</h2>
+      {children}
     </div>
   );
 };

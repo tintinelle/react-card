@@ -9,7 +9,6 @@ interface HeaderProps {
 
 const Header: FC<HeaderProps> = ({ subtitle }) => {
   const buttonContext = useButtonContext();
-  console.log(buttonContext?.buttonState);
 
   return (
     <div className="header">

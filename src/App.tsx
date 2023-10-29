@@ -5,19 +5,19 @@ import Body from "./components/body/Body";
 import Footer from "./components/footer/Footer";
 import PhotoBlock from "./components/photo-block/PhotoBlock";
 import { ButtonContextProvider } from "./context/ButtonContext";
-// import { useButtonContext } from "./context/ButtonContext";
+import { NumberContextProvider } from "./context/NumberContext";
 
 const App = (): React.ReactElement => {
-  // const buttonContext = useButtonContext();
-
   return (
     <div className="card">
       <ButtonContextProvider>
-        <Header subtitle="Witcher Info"></Header>
-        <Body subtitle="Witcher Signs">
-          <PhotoBlock></PhotoBlock>
-        </Body>
-        <Footer subtitle="Footer"></Footer>
+        <NumberContextProvider>
+          <Header subtitle="Witcher Info"></Header>
+          <Body subtitle="Witcher Signs">
+            <PhotoBlock></PhotoBlock>
+          </Body>
+          <Footer subtitle="Footer"></Footer>
+        </NumberContextProvider>
       </ButtonContextProvider>
     </div>
   );
