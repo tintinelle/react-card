@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-card/static/css/main.7783edca.css",
-    "main.js": "/react-card/static/js/main.65b85713.js",
+    "main.css": "/react-card/static/css/main.a183193c.css",
+    "main.js": "/react-card/static/js/main.91a23d66.js",
     "static/media/Montserrat-SemiBold.ttf": "/react-card/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/react-card/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
     "static/media/Montserrat-Light.ttf": "/react-card/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
     "static/media/collapse-icon.svg": "/react-card/static/media/collapse-icon.426a53d97d332b42bca5.svg",
     "static/media/expand-icon.svg": "/react-card/static/media/expand-icon.6f1dcecf38b9df1b8568.svg",
     "index.html": "/react-card/index.html",
-    "main.7783edca.css.map": "/react-card/static/css/main.7783edca.css.map",
-    "main.65b85713.js.map": "/react-card/static/js/main.65b85713.js.map"
+    "main.a183193c.css.map": "/react-card/static/css/main.a183193c.css.map",
+    "main.91a23d66.js.map": "/react-card/static/js/main.91a23d66.js.map"
   },
   "entrypoints": [
-    "static/css/main.7783edca.css",
-    "static/js/main.65b85713.js"
+    "static/css/main.a183193c.css",
+    "static/js/main.91a23d66.js"
   ]
 }
