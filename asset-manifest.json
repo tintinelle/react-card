@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-card/static/css/main.7783edca.css",
-    "main.js": "/react-card/static/js/main.f4f5337e.js",
+    "main.js": "/react-card/static/js/main.65b85713.js",
     "static/media/Montserrat-SemiBold.ttf": "/react-card/static/media/Montserrat-SemiBold.93b37a465fc4ec0d0415.ttf",
     "static/media/Montserrat-Medium.ttf": "/react-card/static/media/Montserrat-Medium.b8c6753baa964ccac1ba.ttf",
     "static/media/Montserrat-Light.ttf": "/react-card/static/media/Montserrat-Light.7179b7d2ac9b599db5f9.ttf",
@@ -9,10 +9,10 @@
     "static/media/expand-icon.svg": "/react-card/static/media/expand-icon.6f1dcecf38b9df1b8568.svg",
     "index.html": "/react-card/index.html",
     "main.7783edca.css.map": "/react-card/static/css/main.7783edca.css.map",
-    "main.f4f5337e.js.map": "/react-card/static/js/main.f4f5337e.js.map"
+    "main.65b85713.js.map": "/react-card/static/js/main.65b85713.js.map"
   },
   "entrypoints": [
     "static/css/main.7783edca.css",
-    "static/js/main.f4f5337e.js"
+    "static/js/main.65b85713.js"
   ]
 }
