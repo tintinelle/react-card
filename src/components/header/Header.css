@@ -29,9 +29,9 @@
 }
 
 .header__button_expand {
-  background-image: url("../../../public/assets/images/expand-icon.svg");
+  background-image: url("../../../public/assets/icons/expand-icon.svg");
 }
 
 .header__button_collapse {
-  background-image: url("../../../public/assets/images/collapse-icon.svg");
+  background-image: url("../../../public/assets/icons/collapse-icon.svg");
 }

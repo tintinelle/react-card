@@ -4,16 +4,10 @@ import { useButtonContext } from "../../context/ButtonContext";
 
 interface BodyProps {
   subtitle?: string;
-  src?: string;
-  className?: string;
-  children?:
-    | React.ReactNode
-    | string
-    | number
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>;
+  children?: React.ReactNode;
 }
 
-const Body: FC<BodyProps> = ({ subtitle, src, className, children }) => {
+const Body: FC<BodyProps> = ({ subtitle, children }) => {
   const buttonContext = useButtonContext();
   // console.log(`body ${buttonContext?.buttonState}`);
 

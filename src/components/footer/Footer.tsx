@@ -3,11 +3,7 @@ import "./Footer.css";
 
 interface FooterProps {
   subtitle?: string;
-  children?:
-    | React.ReactNode
-    | string
-    | number
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>;
+  children?: React.ReactNode;
 }
 
 const Footer: FC<FooterProps> = ({ subtitle, children }) => {

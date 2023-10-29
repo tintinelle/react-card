@@ -4,14 +4,10 @@ import { useButtonContext } from "../../context/ButtonContext";
 
 interface HeaderProps {
   subtitle?: string;
-  children?:
-    | React.ReactNode
-    | string
-    | number
-    | React.ReactElement<any, string | React.JSXElementConstructor<any>>;
+  children?: React.ReactNode;
 }
 
-const Header: FC<HeaderProps> = ({ subtitle, children }) => {
+const Header: FC<HeaderProps> = ({ subtitle }) => {
   const buttonContext = useButtonContext();
   console.log(buttonContext?.buttonState);
 
